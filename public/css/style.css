@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #03065f;
+
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+    background-color: #2f3293;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+
+}
+
+.subContainer {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    border-radius: 15px;
+
+}
+
+.box1 {
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(90deg, #fc3816f1 0%, #4244c888 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: start;
+    padding: 80px 50px;
+    color: white;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.dot {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.dot :nth-child(1){
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+}
+.dot :nth-child(2){
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+}
+.dot :nth-child(3){
+    background-color: rgba(255, 255, 255, 0.342);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    display: flex;
+}
+.dotText h1 {
+    font-size: 33px;
+    font-weight: 400;
+
+}
+.text ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 25px;
+}
+
+
+
+/* .box2 */
+
+
+
+.box2 {
+    width: 50%;
+    background-color: #4245c8;
+    border-radius: 05px 15px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    color: wheat;
+}
+
+.box2 .detaileBox{
+    width: 70%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    
+}
+.logo i{
+    font-size: 25px;
+    
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.userName {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.userName input{
+    padding: 7px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.userName span{
+    font-size: 13px;
+}
+
+button {
+    padding: 10px 0px;
+    font-size: 20px;
+    background-color: #03065f;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.4s ease;
+}
+button:hover {
+    background-color: #03065f67;
+}
+
+.forgate {
+    display: flex;
+    justify-content: space-between;
+}
+.forgate a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
